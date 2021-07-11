@@ -19,6 +19,14 @@ a {
   padding-bottom: 70px;
 }
 
+.nav-item .nav-link {
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #3282b8 !important;
+}
 /* ROW HEADING */
 
 .row-header {
@@ -82,8 +90,4 @@ a {
   color: #f1f1f1;
   font-weight: 800;
   background-color: #00ccff;
-}
-
-modalCustom {
-  background-color: #444343;
 }
