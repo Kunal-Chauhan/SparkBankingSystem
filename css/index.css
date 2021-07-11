@@ -1,32 +1,36 @@
 body {
   padding: 0;
-  background: url("images/bank1.jpg");
+  background: url("../images/bank4.jpg");
   background-size: cover;
   font-family: "Montserrat";
   text-align: center;
   z-index: 0;
 }
 
-.container-fluid {
-  padding: 3% 5%;
+a {
+  text-decoration: none;
+  color: #000000;
 }
 
-.navbar-dark {
-  background-color: #000000;
+/* COMMON CONTAINER */
+
+.container-fluid {
+  padding-top: 100px;
+  padding-bottom: 70px;
 }
-.nav-item .nav-link {
-  font-weight: 500;
-  color: white;
-}
+
+/* ROW HEADING */
+
 .row-header {
-  margin: 0px auto;
-  padding: 0px auto;
+  margin-bottom: 30px;
 }
+
+/* BACKGROUND'S POSITION  FOR INDEX */
 
 .bg-text {
   padding: 20px;
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
   color: white;
   font-weight: bold;
   border: 3px solid #f1f1f1;
@@ -38,10 +42,11 @@ body {
   width: 80%;
 }
 
+/* BACKGROUND'S POSITION FOR CUSTOMER */
 .bg-text1 {
   padding: 20px;
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
   color: white;
   font-weight: bold;
   border: 3px solid #f1f1f1;
@@ -54,17 +59,16 @@ body {
 
 .bg-table {
   padding: 10px;
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 1); /* Black w/opacity/see-through */
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 1);
   color: Black;
-  /* font-weight: bold; */
   border: 1px solid #f1f1f1;
-
   width: 100%;
 }
 
+/* BUTTONS FOR INDEX AND CUSTOMER  */
 .buttonFace {
-  background-color: #00ccff;
+  background-color: orange;
   font-size: 1em;
   padding: 10px;
   font-weight: 500;
@@ -72,11 +76,6 @@ body {
   -webkit-transition-duration: 1s; /* Safari */
   transition-duration: 1s;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-a {
-  text-decoration: none;
-  color: #000000;
 }
 
 .filled {
